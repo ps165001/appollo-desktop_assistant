@@ -140,7 +140,7 @@ if __name__ == "__main__":
             
         elif 'what is the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
-            speak(f"Sir, the time is {strTime}")
+            speak("Sir, the time is {strTime}")
             
         elif "you feeling" in query:
             print("I donot have any feelings")
